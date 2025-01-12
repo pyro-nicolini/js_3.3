@@ -1,3 +1,4 @@
+//este archivo se comparte en 2 páginas html.
 
 /* ejercicio pintar.html */
 const ele = document.getElementById("ele1")
@@ -17,7 +18,7 @@ const color2 = document.getElementById("id2");
 const color3 = document.getElementById("id3");
 const color4 = document.getElementById("id4");
 
-if (color1 && color2 && color3 && color4) {  // valido sí existe en el html, para evitar errores al usar la función de escuchar y reutilizó la función pintar
+if (color1 && color2 && color3 && color4) {  // valido sí existe en el html, para evitar errores y re-utilizó la función pintar
     color1.addEventListener("click", () => pintar(color1, "black"));
     color2.addEventListener("click", () => pintar(color2, "black"));
     color3.addEventListener("click", () => pintar(color3, "black"));
